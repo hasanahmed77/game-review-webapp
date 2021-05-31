@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import 'variables';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.5rem;
+  color: $primary-font-color;
+}
+
+header {
+  display: flex;
+}
+
+// LOGO
+.logo {
+  display: block;
+  margin: 3rem auto 3rem auto;
+}
+
+// SIGN IN BUTTON
+.btn-sign-in {
+  margin-top: 3.6rem;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  color: $secondary-font-color;
+  cursor: pointer;
+}
+
+//  NAVBAR
+.navbar {
+  background-color: $background-color;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1.7rem 0 1.5rem 0;
+}
+
+.navbar a {
+  color: $primary-font-color;
+  text-decoration: none;
+  margin: 0 1.7rem 0 2.3rem;
+}
+
+// REVIEW LIST BODY
+.blog-preview {
+  max-width: 300px;
+  font-size: 1.1rem;
+  margin: auto;
+  border-bottom: 1px solid $border-color;
+  cursor: pointer;
+}
+
+.blog-preview:hover {
+  color: $secondary-font-color;
+}
+
+.blog-preview p {
+  color: $secondary-font-color;
+}
+
+.heart {
+  float: right;
+}
